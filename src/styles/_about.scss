@@ -9,13 +9,14 @@
 
 .tech {
   margin: 10px;
+  display: flex;
+  flex-direction: column; 
 }
 
 .user {
   text-align: center;
   font-size: 60px;
   display: flex;
-  flex-direction: column; 
   flex-grow: 1;
   flex-shrink: 1;
   flex-wrap: nowrap;
